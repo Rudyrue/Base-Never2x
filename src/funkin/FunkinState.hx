@@ -11,6 +11,9 @@ class FunkinState extends FlxState {
 		Conductor.onMeasure.add(measureHit);
 
 		super.create();
+
+		// I LOVE OPENFL.DISPLAY.SPRITE.FILLRECT();
+		FlxG.camera.bgColor.alpha = 0;
 	}
 
 	public function stepHit(step:Int):Void {}
